@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/stars.css">
+    <link rel="stylesheet" href="css/spaceship.css">
+    <link rel="stylesheet" href="css/background.css">
+    <link rel="apple-touch-icon" href="img/icon192.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#aa7700">
+    <meta name="theme-color" content="#291db5">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="manifest" href="manifest.json" type="application/manifest+json">
+    <script src="js/hammer.js"></script>
+    <title>GalaxyUI</title>
+</head>
+<body>
+    
+<div class="app">
+    <div class="space stars1"></div>
+    <div class="space stars2"></div>
+    <div class="space stars3"></div>
+    <div id="myElement">
+        <div id="star" onclick="vibrate()"></div>
+        <div id="star1" onclick="vibrate()"> </div>
+        <div id="star3" onclick="vibrate()"> </div>
+        <div id="star2" onclick="vibrate()"> </div>
+        <div id="star4" onclick="vibrate()"></div>
+    </div>
+    <div id="touchArea" class="toucharea">
+      <img class="tutorial" src="img/tutorial.gif" alt="" id="tutorial" style="display:none;">
+        <div class="container">
+            <img src="img/1.png" class="object" data-value="-2" alt="">
+            <img src="img/2.png" class="object" data-value="6" alt="">
+            <img src="img/3.png" class="object" data-value="4" alt="">
+            <img src="img/4.png" class="object" data-value="-6" alt="">
+            <img src="img/5.png" class="object" data-value="8" alt="">
+            <img src="img/6.png" class="object" data-value="-4" alt="">
+            <img src="img/7.png" class="object" data-value="5" alt="">
+            <img src="img/8.png" class="object" data-value="-9" alt="">
+            <img src="img/9.png" class="object" data-value="-5" alt="">
+          </div>
+        <div id="hitarea" onclick="vibrate()"></div>
+    </div>
+</div>
+<script src="js/app.js"></script>
+<script src="js/shipcontrols.js"></script>
+<script src="js/starscontrols.js"></script>  
+<script src="js/parallax.js"></script>
+<script src="js/tutorial.js"></script>
+<script src="js/vibrate.js"></script>
+</body>
+</html>

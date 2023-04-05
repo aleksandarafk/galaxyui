@@ -1,0 +1,71 @@
+  /*Body settings, tutorial settings and canvas styling*/
+*{
+    margin: 0;
+}
+
+body{
+    overflow: hidden;
+    background: radial-gradient(circle at bottom, navy 0, black 100%);
+}
+
+.app{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.dragButton{
+  background-color: rgb(7, 7, 7);
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  padding-top: 10px;
+  margin:90% 30%;
+}
+
+#myElement {
+    /*background: rgb(8, 8, 8); */
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: green;
+}
+
+#touchArea{
+   /* background-color: rgb(255, 0, 0); */
+   background: radial-gradient(circle at bottom, rgb(0, 0, 3) 0, black 100%);
+    height: 500px;
+}
+
+.container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+}
+
+.tutorial {
+  position: absolute;
+  bottom: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  opacity: 0.4;
+  transition: opacity 1s ease-out;
+}

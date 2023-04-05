@@ -1,0 +1,100 @@
+  /*Responsive settings*/
+
+@media (max-width: 670px) {
+    #hitarea {
+      background: url("img/spaceship.png") no-repeat center;
+      background-size: contain;
+      height: 150px;
+      width: 150px;
+      position: fixed;
+      bottom: 0;
+      transform: translateX(-50%);
+      cursor: pointer;
+      -ms-touch-select: none;
+      -webkit-touch-callout: none;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      }
+        
+    #star {
+      background: url("img/star.png") no-repeat center;
+      background-size: contain;
+        height: 80px;
+        width: 80px;
+        left: 30px; top: 30px;
+        position: absolute;
+        font: 20px Helvetica, Arial, sans-serif;
+        line-height: 140px;
+        text-align: center;
+        display: flex;
+        align-content: space-around;
+        flex-wrap: wrap;
+    }
+  
+    #star1 {
+      background: url("img/star.png") no-repeat center;
+      background-size: contain;
+        height: 80px;
+        width: 80px;
+        left: 50px; top: 200px;
+        position: absolute;
+        font: 20px Helvetica, Arial, sans-serif;
+        line-height: 140px;
+        text-align: center;
+        display: flex;
+        align-content: space-around;
+        flex-wrap: wrap;
+    }
+    #star2 {
+      background: url("img/star.png") no-repeat center;
+      background-size: contain;
+        height: 80px;
+        width: 80px;
+        left: 210px; top: 20px;
+        position: absolute;
+        font: 20px Helvetica, Arial, sans-serif;
+        line-height: 140px;
+        text-align: center;
+        display: flex;
+        align-content: space-around;
+        flex-wrap: wrap;
+    }
+    #star3 {
+      background: url("img/star.png") no-repeat center;
+      background-size: contain;
+        height: 80px;
+        width: 80px;
+        left: 90px; top: 150px;
+        position: absolute;
+        font: 20px Helvetica, Arial, sans-serif;
+        line-height: 140px;
+        text-align: center;
+        display: flex;
+        align-content: space-around;
+        flex-wrap: wrap;
+    }
+    #star4 {
+      background: url("img/star.png") no-repeat center;
+      background-size: contain;
+      height: 80px;
+      width: 80px;
+      left: 90px; 
+      top: 40px;
+      position: absolute;
+      font: 20px Helvetica, Arial, sans-serif;
+      line-height: 140px;
+      text-align: center;
+      display: flex;
+      align-content: space-around;
+      flex-wrap: wrap;
+  }
+    body{
+      overflow: hidden;
+      background: radial-gradient(circle at bottom, navy 0, black 100%);
+    }
+    #touchArea{
+      /* background-color: rgb(255, 0, 0); */
+      background: radial-gradient(circle at bottom, rgb(0, 0, 3) 0, black 100%);
+      height: 500px;
+    }
+}
+  

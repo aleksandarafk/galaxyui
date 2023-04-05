@@ -1,0 +1,77 @@
+  /*Styling for the stars, that are draggable by the user*/
+  
+  #star {
+    background: url("img/star.png") no-repeat center;
+    background-size: contain;
+      height: 80px;
+      width: 80px;
+      left: 30px; top: 30px;
+      position: absolute;
+      font: 20px Helvetica, Arial, sans-serif;
+      line-height: 140px;
+      text-align: center;
+      display: flex;
+      align-content: space-around;
+      flex-wrap: wrap;
+  }
+
+  #star1 {
+    background: url("img/star.png") no-repeat center;
+    background-size: contain;
+      height: 80px;
+      width: 80px;
+      left: 500px; top: 20px;
+      position: absolute;
+      font: 20px Helvetica, Arial, sans-serif;
+      line-height: 140px;
+      text-align: center;
+      display: flex;
+      align-content: space-around;
+      flex-wrap: wrap;
+  }
+
+  #star2 {
+    background: url("img/star.png") no-repeat center;
+    background-size: contain;
+      height: 80px;
+      width: 80px;
+      left: 500px; top: 20px;
+      position: absolute;
+      font: 20px Helvetica, Arial, sans-serif;
+      line-height: 140px;
+      text-align: center;
+      display: flex;
+      align-content: space-around;
+      flex-wrap: wrap;
+  }
+
+  #star3 {
+    background: url("img/star.png") no-repeat center;
+    background-size: contain;
+      height: 80px;
+      width: 80px;
+      left: 300px; top: 50px;
+      position: absolute;
+      font: 20px Helvetica, Arial, sans-serif;
+      line-height: 140px;
+      text-align: center;
+      display: flex;
+      align-content: space-around;
+      flex-wrap: wrap;
+  }
+
+  #star4 {
+    background: url("img/star.png") no-repeat center;
+    background-size: contain;
+    height: 80px;
+    width: 80px;
+    left: 400px;
+    top: 80px;
+    position: absolute;
+    font: 20px Helvetica, Arial, sans-serif;
+    line-height: 140px;
+    text-align: center;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
